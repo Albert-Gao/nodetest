@@ -1,0 +1,9 @@
+---
+services:
+- type: web
+  name: nodetest
+  env: node
+  repo: https://github.com/wendorf/nodetest.git
+  buildCommand: npm ci && npm run build
+  startCommand: 'true'
+
